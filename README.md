@@ -31,7 +31,7 @@ Point of Sale Management and Invoice build with Laravel 10 and MySql.
 1.  **Clone Repository or Download**
 
     ```bash
-    $ git clone https://github.com/fajarghifar/laravel-point-of-sale
+    $ git clone https://github.com/rama-contoh/
     ```
 1. **Setup**
     ```bash
@@ -50,14 +50,6 @@ Point of Sale Management and Invoice build with Laravel 10 and MySql.
     ```bash
     # Generate app key
     $ php artisan key:generate
-    ```
-1. **Custom Faker Locale**
-
-    To set Faker Locale, add this line of code to the end `.env` file.
-    ```bash
-    # In this case, the locale is set to Indonesian
-
-    FAKER_LOCALE="id_ID"
     ```
 
 1. **Setup Database**
@@ -84,11 +76,6 @@ Point of Sale Management and Invoice build with Laravel 10 and MySql.
 
     Try login with username: `admin` and password: `password`
 
-## 🚀 Config
-1. **Config Chart**
-
-    Open file `./config/cart.php`. You can set a tax, format number, etc.
-    > For More details, visit this link [hardevine/shoppingcart](https://packagist.org/packages/hardevine/shoppingcart).
 1. **Create Storage Link**
 
     ```bash
@@ -105,13 +92,3 @@ Point of Sale Management and Invoice build with Laravel 10 and MySql.
 
     or username: `user` and password: `password`
 
-## 📝 Contributing
-
-If you have any ideas to make it more interesting, please send a PR, or create an issue for a feature request.
-
-# 🤝 License
-
-### [MIT](LICENSE)
-
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar)
